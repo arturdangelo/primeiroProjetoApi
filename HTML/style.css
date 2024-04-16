@@ -1,0 +1,125 @@
+.flex{
+    max-width: auto;
+    display: flex;
+}
+
+.row{
+    background-color: steelblue;
+    padding: 30px;
+    display: flex;
+}
+
+.flex.row {
+    justify-content: center;
+}
+
+.item {
+    margin: 5px;
+    color: white;
+    font-size: 36px; 
+    font-weight: bold; 
+    display: flex;
+}
+
+.container{
+    display: flex;
+}
+
+.column{
+    width: 200px;
+    height: 100vh;
+    background-color: #CDC9C9;
+    
+    display: flex;
+}
+
+.corpo {
+    width: calc(100% - 200px); /* Largura total menos a largura da .column */
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    width: 80%;
+    max-width: 400px;
+    background-color: steelblue;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu1 table {
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+.form-group input[type="text"] {
+    width: 100%; /* Exemplo de largura para input type text */
+}
+
+.form-group input[type="number"] {
+    width: 50px; /* Exemplo de largura para input type number */
+}
+
+
+.menu1 th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.menu1 tr a,
+.menu1 tr a:hover,
+.menu1 tr a:active{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto padrão */
+}
+
+.menu1 tr:nth-child(1){
+    font-weight: bold; 
+}
+
+.menu1 tr:nth-child(2):hover,
+.menu1 tr:nth-child(3):hover {
+    background-color: #f5f5f5;
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto padrão */
+}
